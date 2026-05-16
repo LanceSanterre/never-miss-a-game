@@ -1,4 +1,4 @@
-# Data (generated files)
+# Data
 game_data/*.csv
 email_data/*.csv
 old_game_data/*
@@ -7,14 +7,19 @@ old_game_data/*
 !game_data/.gitkeep
 !email_data/.gitkeep
 !old_game_data/.gitkeep
+
+# Python
 __pycache__/
 *.pyc
-.env
-cron.log
-!teams/teams.txt
-scripts/team.txt
-scripts/teams.txt
 
-scirpts/.zprofile
+# Secrets/logs
+.env
+.zprofile
+cron.log
+
+# Ignore duplicate team files
+teams.txt
+team.txt
 scirpts/team.txt
 scirpts/teams.txt
+scirpts/.zprofile
