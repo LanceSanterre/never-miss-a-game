@@ -1,0 +1,16 @@
+# Data (generated files)
+game_data/*.csv
+email_data/*.csv
+old_game_data/*
+
+# Keep folder structure
+!game_data/.gitkeep
+!email_data/.gitkeep
+!old_game_data/.gitkeep
+__pycache__/
+*.pyc
+.env
+cron.log
+!teams/teams.txt
+scripts/team.txt
+scripts/teams.txt
