@@ -14,3 +14,7 @@ cron.log
 !teams/teams.txt
 scripts/team.txt
 scripts/teams.txt
+
+scirpts/.zprofile
+scirpts/team.txt
+scirpts/teams.txt
